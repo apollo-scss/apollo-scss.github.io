@@ -1,0 +1,103 @@
+h1 {
+  font: {
+    family: $apollo-font-title;
+    size: $apollo-font-size-xxxl;
+  }
+}
+
+h2 {
+  font: {
+    family: $apollo-font-heading;
+    size: $apollo-font-size-xxxl;
+  }
+}
+
+h3 {
+  font: {
+    family: $apollo-font-heading;
+    size: $apollo-font-size-xxl;
+  }
+}
+
+h4 {
+  font: {
+    family: $apollo-font-heading;
+    size: $apollo-font-size-xl;
+  }
+}
+
+h5 {
+  font: {
+    family: $apollo-font-heading;
+    size: $apollo-font-size-large;
+  }
+}
+
+p {
+  font: {
+    family: $apollo-font-body;
+    size: $apollo-font-size-regular;
+  }
+
+  line-height: 1.3;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+}
+
+.font-xxxl {
+  font-size: $apollo-font-size-xxxl;
+}
+
+.font-xxl {
+  font-size: $apollo-font-size-xxl;
+}
+
+.font-xl {
+  font-size: $apollo-font-size-xl;
+}
+
+.font-large {
+  font-size: $apollo-font-size-large;
+}
+
+.font-regular {
+  font-size: $apollo-font-size-regular;
+}
+
+.font-small {
+  font-size: $apollo-font-size-small;
+}
+
+.font-xs {
+  font-size: $apollo-font-size-xs;
+}
+
+.text-light {
+  color: $apollo-color-white;
+}
+
+.text-dark {
+  color: $apollo-color-black;
+}
+
+body {
+  font-size: $apollo-font-size-regular;
+}

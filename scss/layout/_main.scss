@@ -1,0 +1,13 @@
+main {
+  z-index: 0;
+  margin-top: $header-height + $navigation-height + 20px;
+  margin-bottom: 20px;
+  background-color: $apollo-color-white;
+}
+
+@media (max-width: $apollo-breakpoint-sm) {
+  main {
+      margin-top: $header-height;
+      margin-bottom: 0;
+  }
+}

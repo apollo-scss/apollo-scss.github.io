@@ -1,0 +1,18 @@
+@font-face {
+  font-family: megrim;
+  src: url('../webfonts/Megrim/Megrim-Regular.ttf');
+}
+
+@font-face {
+  font-family: biorhyme;
+  src: url('../webfonts/BioRhyme/BioRhyme-Regular.ttf');
+}
+
+@font-face {
+  font-family: spacemono;
+  src: url('../webfonts/Space_Mono/SpaceMono-Regular.ttf');
+}
+
+$megrim: megrim;
+$biorhyme: biorhyme;
+$spacemono: spacemono;

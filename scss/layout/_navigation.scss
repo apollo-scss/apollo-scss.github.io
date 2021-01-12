@@ -1,0 +1,57 @@
+$navigation-height: 50px;
+
+nav {
+  overflow: hidden;
+
+  position: fixed;
+  top: $header-height;
+
+  height: $navigation-height;
+  width: 100%;
+
+  z-index: 1;
+
+  line-height: $navigation-height;
+
+  font: {
+    family: $apollo-font-body;
+    size: $apollo-font-size-regular;
+  }
+
+  background-color: $apollo-color-accent;
+  box-shadow:  5px 0 15px $apollo-color-black;
+
+  a {
+    color: $apollo-color-white;
+
+    &:hover {
+      color: $apollo-color-main;
+    }
+  }
+
+  ul {
+    @include flex-row;
+    justify-content: space-around;
+    align-items: center;
+    height: $navigation-height;
+
+    li {
+      height: $navigation-height;
+    }
+  }
+}
+
+@media (max-width: $apollo-breakpoint-sm) {
+  nav {
+    height: 0;
+
+    ul {
+        flex-direction: column;
+    }
+  }
+
+  .show {
+    height: $navigation-height * 5; // navigation height * number of pages in the navigation
+    padding-top: $navigation-height * 2; //FIXME: idk why this happens...
+  }
+}

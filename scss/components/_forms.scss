@@ -1,0 +1,107 @@
+form {
+  border-radius: 5px;
+  background-color: $apollo-color-form-background;
+}
+
+label {
+  font-size: $apollo-font-size-regular;
+  font-family: $apollo-font-body
+}
+
+input {
+  border-radius: 5px;
+  font-family: $apollo-font-body;
+  font-size: $apollo-font-size-regular;
+  line-height: $apollo-font-size-regular;
+
+  width: 100%;
+  height: $apollo-font-size-regular + 5px;
+
+  padding: 25px;
+
+  border: 2px solid $apollo-color-form-border;
+  background-color: $apollo-color-form-element-background;
+  box-shadow: inset 0 5px 10px $apollo-color-form-shadow;
+
+  &.pill {
+    border-radius: 90px;
+  }
+
+  &.error {
+    border-bottom: 4px solid $apollo-color-error;
+  }
+
+  &.succes {
+    border-bottom: 4px solid $apollo-color-succes;
+  }
+
+  &.warning {
+    border-bottom: 4px solid $apollo-color-warning;
+  }
+
+  &.info {
+    border-bottom: 4px solid $apollo-color-info;
+  }
+
+  &.attach {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+    width: 70%;
+
+    &.pill {
+      border-top-left-radius: 90px;
+      border-bottom-left-radius: 90px;
+    }
+  }
+}
+
+.button {
+  &.attach {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    // not the most elegant solution to keep in check overflow, feel free to
+    // remove this and style it your own way...
+    // everything is coded to be wrapped in containers
+    width: 30%;
+
+    overflow: hidden;
+
+    text-align: center;
+
+    &.pill {
+      border-top-right-radius: 90px;
+      border-bottom-right-radius: 90px;
+    }
+  }
+}
+
+textarea {
+  max-width: 100%;
+  width: 100%;
+  min-height: 150px;
+
+  padding: 25px;
+
+  border-radius: 5px;
+  font-family: $apollo-font-body;
+  font-size: $apollo-font-size-regular;
+  line-height: $apollo-font-size-regular + 5px;
+
+  border: 2px solid $apollo-color-form-border;
+  background-color: $apollo-color-form-background;
+  box-shadow: inset 0 5px 10px $apollo-color-form-shadow;
+
+  &.no-resize-horizontal {
+    min-width: 100%;
+  }
+
+  &.no-resize {
+    resize: none;
+  }
+}

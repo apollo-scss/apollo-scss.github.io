@@ -1,0 +1,54 @@
+// Theme colors
+
+// Theme 1
+//$apollo-color-main: #d1d646;
+//$apollo-color-accent: #457812;
+
+//Theme 2
+$apollo-color-main: #d789d7;
+$apollo-color-accent: #5d54a4;
+
+
+$apollo-color-dark: #151515;
+$apollo-color-light: #f8f8f8;
+
+
+// Standard colors
+// TODO: FIX grey
+$apollo-color-black: #000;
+$apollo-color-white: #fff;
+$apollo-color-grey: #595959;
+
+$apollo-color-form-background: #f2f2f2;
+$apollo-color-form-element-background: #f8f8f8;
+$apollo-color-form-border: #ccc;
+$apollo-color-form-shadow: #ddd;
+
+$apollo-color-succes: #7d7;
+$apollo-color-error: #ff6961;
+$apollo-color-warning: #ffb347;
+$apollo-color-info: #779ecb;
+
+// Media breakpoints
+$apollo-breakpoint-sm: 576px;
+$apollo-breakpoint-md: 768px;
+$apollo-breakpoint-lg: 992px;
+$apollo-breakpoint-xl: 1200px;
+
+// Font-sizes
+$apollo-font-size-xs: 10px;
+$apollo-font-size-small: 15px;
+$apollo-font-size-regular: 20px;
+$apollo-font-size-large: 25px;
+$apollo-font-size-xl: 30px;
+$apollo-font-size-xxl: 40px;
+$apollo-font-size-xxxl: 50px;
+
+// Font-families (see 'base/_typography.scss')
+$apollo-font-title: $megrim;
+$apollo-font-heading: $biorhyme;
+$apollo-font-body: $spacemono;
+
+// Font awesome stuff
+$fa-font-path: '../webfonts';
+$font-awesome: 'Font Awesome 5 Free';

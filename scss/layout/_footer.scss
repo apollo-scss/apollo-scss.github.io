@@ -1,0 +1,36 @@
+footer {
+  @include flex-column;
+  justify-content: space-between;
+
+  min-height: 150px;
+
+  padding: {
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 10px;
+  }
+
+  background-color: $apollo-color-main;
+  color: $apollo-color-black;
+  box-shadow: 0 5px 15px $apollo-color-black;
+  z-index: 1;
+
+  font: {
+    family: $apollo-font-body;
+    size: $apollo-font-size-regular;
+  }
+
+  border-top: {
+    width: 3px;
+    style: solid;
+    color: $apollo-color-accent;
+  }
+
+  .tagline {
+    text-align: center;
+    height: $apollo-font-size-small;
+    line-height: $apollo-font-size-small;
+    font-size: $apollo-font-size-small;
+  }
+}

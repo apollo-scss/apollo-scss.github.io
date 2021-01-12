@@ -1,0 +1,28 @@
+.card-container {
+  background-color: $apollo-color-main;
+  color: $apollo-color-black;
+
+  border-radius: 5px;
+
+  .card {
+    @include flex-row;
+    width: 100%;
+
+    border-radius: 5px;
+
+    .half {
+      width: 50%;
+      overflow: hidden;
+    }
+
+    .left {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+
+    .right {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+  }
+}

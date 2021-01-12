@@ -1,0 +1,55 @@
+button {
+  @include reset-button;
+}
+
+.button {
+  background-color: $apollo-color-main;
+  color: $apollo-color-black;
+  border: 2px solid $apollo-color-accent;
+  border-radius: 5px;
+
+  font: {
+    family: $apollo-font-body;
+    size: $apollo-font-size-regular;
+  }
+
+  padding: {
+    top: 2px;
+    bottom: 2px;
+    left: 7px;
+    right: 7px;
+  }
+
+  transition: .25s;
+
+  cursor: pointer;
+
+  &:hover {
+    color: $apollo-color-black;
+  }
+
+  &.pill {
+    border-radius: 90px;
+  }
+
+  &.fill {
+    &:hover {
+      box-shadow: inset 0 0 0 2em $apollo-color-accent;
+      color: $apollo-color-white;
+    }
+  }
+
+  &.slide {
+    &:hover {
+      box-shadow: inset 6.5em 0 0 0 $apollo-color-accent;
+      color: $apollo-color-white;
+    }
+  }
+
+  &.close {
+    &:hover {
+      box-shadow: inset -3.5em 0 0 0 $apollo-color-accent, inset 3.5em 0 0 0 $apollo-color-accent;
+      color: $apollo-color-white;
+    }
+  }
+}

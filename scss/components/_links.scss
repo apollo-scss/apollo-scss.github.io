@@ -1,0 +1,18 @@
+a {
+  text-decoration: none;
+  color: $apollo-color-accent;
+
+  &:hover {
+    color: $apollo-color-black;
+  }
+}
+
+.redirect {
+  font-family: $apollo-font-body;
+
+  &::after {
+    font-family: $font-awesome;
+    font-weight: 900;
+    content: ' \f061';
+  }
+}

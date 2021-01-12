@@ -1,0 +1,41 @@
+$header-height: 150px;
+
+header {
+  @include flex-row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+
+  height: $header-height;
+  width: 100%;
+
+  z-index: 2;
+  padding: 50px;
+
+  background-color: $apollo-color-main;
+  color: $apollo-color-black;
+
+  a {
+    @include flex-row;
+  }
+
+  .hamburger {
+    visibility: hidden;
+  }
+}
+
+
+@media (max-width: $apollo-breakpoint-sm) {
+  header {
+    border-bottom: {
+      width: 3px;
+      style: solid;
+      color: $apollo-color-accent;
+    }
+
+    .hamburger {
+      visibility: visible;
+    }
+  }
+}

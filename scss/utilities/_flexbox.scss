@@ -1,0 +1,87 @@
+.flex-container {
+  display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-center-self {
+  align-self: center;
+}
+
+.flex-center-align {
+  align-items: center;
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-center {
+  justify-content: center;
+}
+
+@mixin flex-center-self {
+  align-self: center;
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: $apollo-breakpoint-sm) {
+   .flex-row {
+     &.flex-break-sm {
+       flex-direction: column !important;
+     }
+   }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: $apollo-breakpoint-md) {
+     .flex-row {
+       &.flex-break-md {
+         flex-direction: column !important;
+       }
+     }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: $apollo-breakpoint-lg) {
+   .flex-row {
+     &.flex-break-lg {
+       flex-direction: column !important;
+     }
+   }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: $apollo-breakpoint-xl) {
+   .flex-row {
+     &.flex-break-xl {
+       flex-direction: column !important;
+     }
+   }
+}

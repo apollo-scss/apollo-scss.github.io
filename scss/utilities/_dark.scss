@@ -1,0 +1,26 @@
+// EXPERIMENTAL
+
+.dark {
+  background-color: $apollo-color-dark !important;
+  color: $apollo-color-white !important;
+}
+
+a {
+  &.dark {
+    color: $apollo-color-accent !important;
+
+    &:hover {
+      color: $apollo-color-main !important;
+    }
+  }
+
+  &.button {
+    &.dark {
+      color: $apollo-color-white !important;
+
+      &:hover {
+        color: $apollo-color-white !important;
+      }
+    }
+  }
+}
