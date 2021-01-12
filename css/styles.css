@@ -10825,30 +10825,42 @@ html {
   border: 2px solid #5d54a4 !important;
 }
 
-.card-container {
+.card {
   background-color: #d789d7;
   color: #000;
   border-radius: 5px;
-}
-.card-container .card {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  border-radius: 5px;
-}
-.card-container .card .half {
-  width: 50%;
   overflow: hidden;
 }
-.card-container .card .left {
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-.card-container .card .right {
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+.card div {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
 }
 
+@media (max-width: 576px) {
+  .card div {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .card div {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 992px) {
+  .card div {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media (max-width: 1200px) {
+  .card div {
+    width: 100%;
+    height: 50%;
+  }
+}
 .badge {
   display: inline;
   text-align: center;
@@ -11233,5 +11245,5 @@ main {
 }
 body {
   background-color: #595959;
-  background-image: url("../images/background.png");
+  background-image: url("../images/background.jpg");
 }

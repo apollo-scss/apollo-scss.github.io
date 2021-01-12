@@ -52,36 +52,36 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: $apollo-breakpoint-sm) {
-   .flex-row {
-     &.flex-break-sm {
-       flex-direction: column !important;
-     }
-   }
+  .flex-row {
+    &.flex-break-sm {
+      flex-direction: column !important;
+    }
+  }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (max-width: $apollo-breakpoint-md) {
-     .flex-row {
-       &.flex-break-md {
-         flex-direction: column !important;
-       }
-     }
+  .flex-row {
+    &.flex-break-md {
+      flex-direction: column !important;
+    }
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (max-width: $apollo-breakpoint-lg) {
-   .flex-row {
-     &.flex-break-lg {
-       flex-direction: column !important;
-     }
-   }
+  .flex-row {
+    &.flex-break-lg {
+      flex-direction: column !important;
+    }
+  }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (max-width: $apollo-breakpoint-xl) {
-   .flex-row {
-     &.flex-break-xl {
-       flex-direction: column !important;
-     }
-   }
+  .flex-row {
+    &.flex-break-xl {
+      flex-direction: column !important;
+    }
+  }
 }
