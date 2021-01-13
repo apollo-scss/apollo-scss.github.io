@@ -11156,7 +11156,7 @@ header a {
   display: flex;
   flex-direction: row;
 }
-header .hamburger {
+header .hamburger a {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
