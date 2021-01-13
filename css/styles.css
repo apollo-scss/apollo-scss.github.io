@@ -11250,10 +11250,5 @@ main {
 }
 body {
   background-color: #595959;
-}
-
-@media (max-width: 576px) {
-  body {
-    background-image: 0;
-  }
+  background-image: url("../images/background.jpg");
 }
