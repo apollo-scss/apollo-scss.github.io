@@ -5,6 +5,10 @@ body {
   // background-image: url('../images/background.jpg');
 }
 
+html {
+  max-width: 100vw;
+}
+
 // FIXME: Okay this can be done better i know....
 @media (max-width: $apollo-breakpoint-sm) {
   body {

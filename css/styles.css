@@ -11253,6 +11253,10 @@ body {
   background-color: #595959;
 }
 
+html {
+  max-width: 100vw;
+}
+
 @media (max-width: 576px) {
   body {
     background-image: 0;
