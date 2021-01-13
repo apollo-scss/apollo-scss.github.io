@@ -4,3 +4,10 @@ body {
   background-color: $apollo-color-grey;
   background-image: url('../images/background.jpg');
 }
+
+// FIXME: Okay this can be done better i know....
+@media (max-width: $apollo-breakpoint-sm) {
+  body {
+    background-image: 0;
+  }
+}
