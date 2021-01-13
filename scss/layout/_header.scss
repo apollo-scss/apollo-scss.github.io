@@ -22,8 +22,8 @@ header {
   }
 
   .hamburger {
+    @include user-select-none;
     visibility: hidden;
-    user-select: none;
   }
 }
 
