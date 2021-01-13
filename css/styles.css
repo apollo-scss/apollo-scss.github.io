@@ -11158,7 +11158,6 @@ header .hamburger {
     border-bottom-width: 3px;
     border-bottom-style: solid;
     border-bottom-color: #5d54a4;
-    box-shadow: 5px 0 15px #000;
   }
   header .hamburger {
     visibility: visible;
@@ -11171,7 +11170,7 @@ nav {
   height: 50px;
   max-width: 100vw;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   line-height: 50px;
   font-family: spacemono;
   font-size: 20px;
@@ -11198,7 +11197,8 @@ nav ul li {
 @media (max-width: 576px) {
   nav {
     height: 0;
-    transition: 3s;
+    transition: 0.3s;
+    box-shadow: 0;
   }
   nav ul {
     flex-direction: column;

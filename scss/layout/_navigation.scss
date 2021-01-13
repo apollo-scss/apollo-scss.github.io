@@ -10,7 +10,7 @@ nav {
   max-width: 100vw;
   width: 100%;
 
-  z-index: 1;
+  z-index: 2;
 
   line-height: $navigation-height;
 
@@ -45,7 +45,9 @@ nav {
 @media (max-width: $apollo-breakpoint-sm) {
   nav {
     height: 0;
-    transition: 3s;
+    transition: .3s;
+
+    box-shadow: 0;
 
     ul {
         flex-direction: column;
@@ -54,6 +56,6 @@ nav {
 
   .show {
     height: $navigation-height * 5; // navigation height * number of pages in the navigation
-    padding-top: $navigation-height * 2; //FIXME: idk why this happens...
+    padding-top: ($navigation-height * 2); //FIXME: idk why this happens...
   }
 }
