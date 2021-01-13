@@ -11234,6 +11234,7 @@ footer .tagline {
 }
 
 main {
+  max-width: 100vw;
   z-index: 0;
   margin-top: 220px;
   margin-bottom: 20px;
@@ -11248,6 +11249,7 @@ main {
 }
 body {
   max-width: 100vw;
+  overflow: hidden;
   background-color: #595959;
   background-image: url("../images/background.jpg");
 }
