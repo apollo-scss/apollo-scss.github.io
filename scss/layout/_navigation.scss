@@ -45,6 +45,7 @@ nav {
 @media (max-width: $apollo-breakpoint-sm) {
   nav {
     height: 0;
+    transition: 3s;
 
     ul {
         flex-direction: column;
