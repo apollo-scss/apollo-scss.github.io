@@ -25,6 +25,10 @@ header {
     a {
       @include user-select-none;
       visibility: hidden;
+
+      &:hover {
+        color: $apollo-color-accent;
+      }
     }
   }
 }

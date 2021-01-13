@@ -11163,6 +11163,9 @@ header .hamburger a {
   user-select: none;
   visibility: hidden;
 }
+header .hamburger a:hover {
+  color: #5d54a4;
+}
 
 @media (max-width: 576px) {
   header {
