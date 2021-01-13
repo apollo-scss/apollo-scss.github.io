@@ -11044,6 +11044,7 @@ body {
 section {
   border-radius: 5px;
   border: 2px solid #595959;
+  overflow: hidden;
 }
 
 form {
@@ -11254,6 +11255,9 @@ body {
 
 html {
   max-width: 100vw;
+}
+
+.overflow-control {
   overflow-x: hidden;
 }
 
