@@ -11137,6 +11137,7 @@ header {
   position: fixed;
   top: 0;
   height: 150px;
+  max-width: 100vw;
   width: 100%;
   z-index: 2;
   padding: 50px;
@@ -11166,6 +11167,7 @@ nav {
   position: fixed;
   top: 150px;
   height: 50px;
+  max-width: 100vw;
   width: 100%;
   z-index: 1;
   line-height: 50px;
@@ -11209,6 +11211,7 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   min-height: 150px;
+  max-width: 100vw;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
@@ -11244,6 +11247,7 @@ main {
   }
 }
 body {
+  max-width: 100vw;
   background-color: #595959;
   background-image: url("../images/background.jpg");
 }
