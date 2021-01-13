@@ -1,4 +1,4 @@
-$header-height: 100px;
+$header-height: 120px;
 
 header {
   @include flex-row;
@@ -22,12 +22,11 @@ header {
   }
 
   .hamburger {
-    a {
-      @include user-select-none;
-      visibility: hidden;
+    visibility: hidden;
 
+    a {
       &:hover {
-        color: $apollo-color-accent;
+        color: $apollo-color-accent !important;
       }
     }
   }
