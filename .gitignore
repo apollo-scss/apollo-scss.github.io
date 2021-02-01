@@ -3,3 +3,4 @@
 node_modules/
 gruntfile.js
 package-lock.json
+*.map
