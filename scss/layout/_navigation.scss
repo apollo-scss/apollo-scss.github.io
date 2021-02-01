@@ -56,6 +56,6 @@ nav {
 
   .show {
     height: $navigation-height * 5; // navigation height * number of pages in the navigation
-    padding-top: ($navigation-height * 2); //FIXME: idk why this happens...
+    padding-top: ($navigation-height * 2); // FIXME: idk why this happens...
   }
 }

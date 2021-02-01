@@ -10,27 +10,28 @@
 
 @import 'utilities/variables';
 @import 'utilities/break';
-@import 'utilities/margin';
-@import 'utilities/fadein';
-@import 'utilities/mixins';
-@import 'utilities/flexbox';
-@import 'utilities/dark';
-@import 'utilities/padding';
-@import 'utilities/grid';
 @import 'utilities/colors';
+@import 'utilities/dark';
+@import 'utilities/fadein';
+@import 'utilities/flexbox';
+@import 'utilities/grid';
+@import 'utilities/margin';
+@import 'utilities/mixins';
+@import 'utilities/padding';
 @import 'utilities/user-select';
 
-@import 'components/card';
 @import 'components/badge';
 @import 'components/button';
-@import 'components/links';
-@import 'components/text';
-@import 'components/sections';
+@import 'components/card';
 @import 'components/forms';
+@import 'components/links';
 @import 'components/lists';
+@import 'components/progress';
+@import 'components/sections';
+@import 'components/text';
 
-@import 'layout/header';
-@import 'layout/navigation';
-@import 'layout/footer';
-@import 'layout/main';
 @import 'layout/background';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/navigation'; // TODO: Move navigation height to Variables
+@import 'layout/main'; 
