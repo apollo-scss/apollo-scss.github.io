@@ -1,2 +1,5 @@
 *.code-workspace
 .sass-lint.yml
+node_modules/
+gruntfile.js
+package-lock.json
