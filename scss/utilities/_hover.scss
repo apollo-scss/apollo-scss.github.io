@@ -1,0 +1,31 @@
+.hover-fade-in {
+    opacity: 0.6;
+}
+
+.hover-fade-in:hover {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.hover-fade-out:hover {
+    opacity: 0.6;
+    transition-duration: 0.5s;
+}
+
+.hover-fill:hover {
+    box-shadow: inset 0 0 0 5em $apollo-color-accent;
+    color: $apollo-color-white;
+    transition-duration: 0.5s;
+}
+
+.hover-slide:hover {
+    box-shadow: inset 6.5em 0 0 0 $apollo-color-accent;
+    color: $apollo-color-white;
+    transition-duration: 0.5s;
+}
+
+.hover-close:hover {
+    box-shadow: inset -3.5em 0 0 0 $apollo-color-accent, inset 3.5em 0 0 0 $apollo-color-accent;
+    color: $apollo-color-white;
+    transition-duration: 0.5s;
+}

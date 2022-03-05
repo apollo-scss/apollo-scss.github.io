@@ -7,42 +7,42 @@
 }
 
 .border-dotted {
-    border: dotted black 2px;
+    border: dotted $apollo-color-main 2px;
 }
 
 .border-dashed {
-    border: dashed black 2px;
+    border: dashed $apollo-color-main 2px;
 }
 
 .border-solid {
-    border: solid black 2px;
+    border: solid $apollo-color-main 2px;
 }
 
 
 .border-double {
-    border-style: double black 2px;
+    border: double $apollo-color-main 4px;
 }
 
 .border-groove {
-    border: groove black 2px;
+    border: groove $apollo-color-main 4px;
 }
 
 .border-ridge {
-    border: ridge black 2px;
+    border: ridge $apollo-color-main 4px;
 }
 
 .border-inset {
-    border: inset black 2px;
+    border: inset $apollo-color-main 4px;
 }
 
 .border-outset {
-    border: outset black 2px;
+    border: outset $apollo-color-main 4px;
 }
 
 .border-none {
-    border-style: none;
+    border-style: none !important;
 }
 
 .border-hidden {
-    border-style: hidden;
+    border-style: hidden !important;
 }

@@ -17,6 +17,7 @@
 @import 'utilities/flexbox';
 @import 'utilities/grid';
 @import 'utilities/hide';
+@import 'utilities/hover'; // TODO: Move button hover effects to this module
 @import 'utilities/margin';
 @import 'utilities/mixins';
 @import 'utilities/padding';
@@ -36,5 +37,5 @@
 @import 'layout/background';
 @import 'layout/footer';
 @import 'layout/header';
-@import 'layout/navigation'; // TODO: Move navigation height to Variables
+@import 'layout/navigation'; // TODO: Move navigation height to variables
 @import 'layout/main';

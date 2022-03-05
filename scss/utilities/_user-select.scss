@@ -20,5 +20,9 @@
 }
 
 .card a::selection {
-  background: $apollo-color-accent;
+  background: $apollo-color-black;
+}
+
+.card.dark a::selection {
+  background: $apollo-color-white;
 }
