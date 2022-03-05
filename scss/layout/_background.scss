@@ -1,4 +1,13 @@
 body {
   background-color: $apollo-color-grey;
+}
+
+.bg-image {
+  z-index: -1;
   background-image: url('../images/background.jpg');
+  position: fixed;
+  top: 0; right: 0; bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(2px);
 }

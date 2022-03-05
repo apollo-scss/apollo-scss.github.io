@@ -5,6 +5,10 @@ a {
   &:hover {
     color: $apollo-color-black;
   }
+
+  &:active {
+    color: $apollo-color-accent;
+  }
 }
 
 .redirect {

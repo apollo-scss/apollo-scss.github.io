@@ -10,3 +10,15 @@
 .user-select-none {
   @include user-select-none;
 }
+
+::selection {
+  background: $apollo-color-main;
+}
+
+.card p::selection {
+  background: $apollo-color-accent;
+}
+
+.card a::selection {
+  background: $apollo-color-accent;
+}

@@ -3,6 +3,7 @@ h1 {
     family: $apollo-font-title;
     size: $apollo-font-size-xxxl;
   }
+  line-height: 1.3;
 }
 
 h2 {
@@ -10,6 +11,7 @@ h2 {
     family: $apollo-font-heading;
     size: $apollo-font-size-xxxl;
   }
+  line-height: 1.3;
 }
 
 h3 {
@@ -17,6 +19,7 @@ h3 {
     family: $apollo-font-heading;
     size: $apollo-font-size-xxl;
   }
+  line-height: 1.3;
 }
 
 h4 {
@@ -24,6 +27,7 @@ h4 {
     family: $apollo-font-heading;
     size: $apollo-font-size-xl;
   }
+  line-height: 1.3;
 }
 
 h5 {
@@ -31,6 +35,7 @@ h5 {
     family: $apollo-font-heading;
     size: $apollo-font-size-large;
   }
+  line-height: 1.3;
 }
 
 p {
@@ -38,8 +43,7 @@ p {
     family: $apollo-font-body;
     size: $apollo-font-size-regular;
   }
-
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 .bold {
