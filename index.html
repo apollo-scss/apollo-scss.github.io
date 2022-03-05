@@ -8,13 +8,22 @@
   </head>
   <body>
     <div class="bg-image"></div>
+    <div id="downloadPopUp" class="pop-up padding-20 flex-column hide border-rounded">
+      <a class="text-center" href="">apollo-scss.github.io-master.zip</a>
+      <div class="break-h-10"></div>
+      <p class="text-center font-xs">md5: f08ccba11c0b3e17fd77b8d8a2002820</p>
+      <div class="flex-row flex-evenly padding-20">
+        <a href="https://github.com/apollo-scss/apollo-scss.github.io/archive/master.zip" class="button user-select-none">Download</a>
+        <a href="javascript:void(0);" onclick="PopUpClose()" class="button user-select-none">Close</a>
+      </div>
+    </div>
     <header class="dark">
       <a href="#">
         <h1 class="text-color-accent">Apollo</h1>
         <p style="font-size:10px" class="text-color-main vertical text-center">v1.1.0</p>
       </a>
       <div class="hamburger">
-        <a href="javascript:void(0);" class="icon" onclick="Hamburger()">
+        <a href="javascript:void(0);" onclick="Hamburger()" class="icon">
           <i class="fas fa-bars fa-3x"></i>
         </a>
       </div>
@@ -22,7 +31,7 @@
     <nav id="navigation">
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="https://github.com/apollo-scss/apollo-scss.github.io/archive/master.zip">Download</a></li>
+        <li><a href="javascript:void(0);" onclick="PopUpToggle()">Download</a></li>
         <li><a href="https://github.com/apollo-scss/apollo-scss.github.io" target="_blank" rel="noopener noreferrer">Github</a></li>
         <li><a href="https://riptide00.github.io" target="_blank" rel="noopener noreferrer">About me</a></li>
       </ul>
@@ -220,6 +229,63 @@
 
       <div class="break-h-50"></div>
 
+      <!-- Borders -->
+      <section class="padding-50 borders">
+
+        <h3 class="underline">Borders</h3>
+
+        <div class="break-h-20"></div>
+
+        <p>add borders to elements fast.</p>
+
+        <div class="break-h-40"></div>
+
+        <div class="flex-column flex-break-md flex-evenly flex-center-align">
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-rounded text-center user-select-none">rounded</p>
+
+          <div class="break-h-20"></div>
+  
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-rounded-bold text-center user-select-none">rounded(bold)</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-dotted text-center user-select-none">dotted</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-dashed text-center user-select-none">dashed</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-solid text-center user-select-none">solid</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-double text-center user-select-none">double</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-groove text-center user-select-none">groove</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-ridge text-center user-select-none">ridge</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-inset text-center user-select-none">inset</p>
+
+          <div class="break-h-20"></div>
+
+          <p style="width: 100%; height: 100px; line-height: 100px; background-color: #494180; color: white;" class="border-ouset text-center user-select-none">outset</p>
+
+        </div>
+
+      </section>
+
+      <div class="break-h-50"></div>
+
       <!-- Cards -->
       <section class="padding-50 cards">
 
@@ -314,7 +380,6 @@
 
         <div class="break-h-40"></div>
 
-        <!-- The </br> tag is needed to counter "display: inline" -->
         <p class="badge">badge</p>
 
         <div class="break-h-20"></div>
@@ -332,7 +397,7 @@
 
         <div class="break-h-20"></div>
 
-        <p>I integrated the <a href="https://getbootstrap.com/">Bootstrap</a> grid system.</p>
+        <p>I integrated the <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer">Bootstrap</a> grid system.</p>
         <p>(Resize the window to see the effect)</p>
 
         <div class="break-h-40"></div>
@@ -362,7 +427,7 @@
 
         <div class="break-h-20"></div>
 
-        <p>I integrated the scss version of <a href="https://fontawesome.com/">Font Awesome</a></p>
+        <p>I integrated the scss version of <a href="https://fontawesome.com/" target="_blank" rel="noopener noreferrer">Font Awesome</a></p>
 
         <div class="break-h-40"></div>
 
@@ -818,15 +883,16 @@
       <ul class="padding-5">
         <li><a class="dark" href="#">Home</a></li>
         <div class="break-h-5"></div>
-        <li><a class="dark" href="#">Download</a></li>
+        <li><a href="javascript:void(0);" onclick="PopUpToggle()">Download</a></li>
         <div class="break-h-5"></div>
-        <li><a class="dark" href="#">Github</a></li>
+        <li><a class="dark" href="https://github.com/apollo-scss/apollo-scss.github.io" target="_blank" rel="noopener noreferrer">Github</a></li>
         <div class="break-h-5"></div>
-        <li><a class="dark" href="#">About me</a></li>
+        <li><a class="dark" href="https://riptide00.github.io" target="_blank" rel="noopener noreferrer">About me</a></li>
         <div class="break-h-5"></div>
       </ul>
       <p class="tagline">Hosted on Github</p>
     </footer>
     <script src="js/hamburger.js"></script>
+    <script src="js/downloadPopUp.js"></script>
   </body>
 </html>
